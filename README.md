@@ -1,129 +1,158 @@
-# Welcome to your Dyad app
-📊 Finance Analyser
+# 📊 Finance Analyser
 
-Finance Analyser is a web-based application that helps users explore and analyze financial information such as income, expenses, and spending patterns through a simple and interactive interface.
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
+![Vite](https://img.shields.io/badge/Build-Vite-purple)
+![Tailwind](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-The project focuses on making financial insights easier to understand using a clean UI and modern frontend technologies.
+Finance Analyser is a web-based application that helps users explore and understand financial data such as income, expenses, and spending patterns through a simple and interactive interface.
 
-🚀 Features
+The project demonstrates how modern frontend technologies can be used to create fast, responsive, and clean data-driven applications.
 
-📊 Analyze financial data
+---
 
-💰 Track income and expenses
+## 🚀 Features
 
-📈 Visualize financial patterns
+- 📊 Analyze financial data  
+- 💰 Track income and expenses  
+- 📈 Visualize spending patterns  
+- ⚡ Fast development using Vite  
+- 🎨 Clean and responsive UI with Tailwind CSS  
+- 🌐 Easy deployment using Vercel  
 
-⚡ Fast and lightweight frontend
+---
 
-🎨 Clean and responsive UI with Tailwind CSS
+## 🛠️ Tech Stack
 
-🌐 Easy deployment with Vercel
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **PostCSS**
+- **Node.js**
+- **Vercel (Deployment)**
 
-🛠️ Tech Stack
+---
 
-TypeScript
+## 🤖 Built with Dyad
 
-Vite
+The initial version of **Finance Analyser** was rapidly prototyped using **Dyad**, an AI-assisted development platform.
 
-Tailwind CSS
+Dyad helped accelerate the development process by:
 
-PostCSS
+- Generating the initial project structure
+- Assisting with TypeScript-based components
+- Configuring the development environment with Vite and Tailwind CSS
 
-Node.js
+Using Dyad allowed the application to be created quickly, after which the generated code was reviewed, customized, and improved to refine functionality and structure.
 
-Vercel (Deployment)
+This project demonstrates how **AI-assisted development tools can speed up application prototyping while still allowing developers to extend and improve the generated code.**
 
-🤖 Built with Dyad
+---
 
-The initial version of Finance Analyser was rapidly prototyped using Dyad, an AI-assisted development platform.
+## 📁 Project Structure
 
-Dyad helped:
-
-Generate the initial project structure
-
-Set up the frontend environment
-
-Configure development tools such as Vite, TypeScript, and Tailwind CSS
-
-Using Dyad allowed the application to be created quickly and efficiently, after which the code was reviewed and customized to refine the functionality and structure.
-
-This project demonstrates how AI-assisted development tools can accelerate application prototyping while still allowing developers to understand and improve the generated code.
-
-📁 Project Structure
+```
 finance-analyser
 │
-├── index.html              # Main HTML entry point
-├── package.json            # Project dependencies
-├── pnpm-lock.yaml          # Dependency lock file
-├── vite.config.ts          # Vite configuration
-├── tailwind.config.ts      # Tailwind CSS configuration
-├── postcss.config.js       # PostCSS setup
-├── tsconfig.json           # TypeScript configuration
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── vite.config.ts
+├── tailwind.config.ts
+├── postcss.config.js
+├── tsconfig.json
 ├── tsconfig.app.json
 ├── tsconfig.node.json
-├── vercel.json             # Deployment configuration
-└── src/                    # Application source code
-⚙️ Installation
+├── vercel.json
+└── src/
+```
 
-Clone the repository:
+---
 
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
 git clone https://github.com/Nethra1807/finance-analyser.git
+```
 
-Move into the project folder:
+Navigate to the project directory
 
+```bash
 cd finance-analyser
+```
 
-Install dependencies:
+Install dependencies
 
+```bash
 npm install
+```
 
-or if using pnpm:
+or
 
+```bash
 pnpm install
-▶️ Running the Project
+```
 
-Start the development server:
+---
 
+## ▶️ Running the Project
+
+Start the development server
+
+```bash
 npm run dev
+```
 
 The application will run locally at:
 
+```
 http://localhost:5173
-🌐 Deployment
+```
 
-The project can be easily deployed using Vercel.
+---
 
-To deploy:
+## 🌐 Deployment
 
+This project can be easily deployed using **Vercel**.
+
+```bash
 vercel
-🎯 Purpose of the Project
+```
+
+---
+
+## 🎯 Purpose of the Project
 
 This project was built to:
 
-Practice modern frontend development
+- Practice **modern frontend development**
+- Learn **TypeScript and Vite project workflows**
+- Explore **financial data visualization**
+- Experiment with **AI-assisted development using Dyad**
 
-Experiment with financial data visualization
+---
 
-Learn TypeScript and Vite-based project structures
+## 🔮 Future Improvements
 
-Explore AI-assisted development using Dyad
+- Interactive financial dashboards  
+- Advanced data visualizations  
+- CSV upload for financial datasets  
+- Budget tracking and expense categorization  
 
-🔮 Future Improvements
+---
 
-Add interactive financial dashboards
+## 👩‍💻 Author
 
-Include charts for better data visualization
+**Nethra**
 
-Support CSV or user-input financial data
+Information Science Engineering Student  
+Interested in **Artificial Intelligence, Machine Learning, and Software Development**
 
-Add budgeting and expense categorization features
-
-👩‍💻 Author
-
-Nethra
-
-Information Science Engineering Student interested in
-Artificial Intelligence, Machine Learning, and Software Development
-
-GitHub:
+GitHub:  
 https://github.com/Nethra1807
+
+---
+
+⭐ If you found this project interesting, consider **starring the repository**.
