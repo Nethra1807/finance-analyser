@@ -39,17 +39,17 @@ const AddTransactionDialog = () => {
           <DialogHeader>
             <DialogTitle>Add Transaction</DialogTitle>
             <DialogDescription>
-              Enter the details of your new transaction here.
+              Enter the details of your new transaction in INR.
             </DialogDescription>
           </DialogHeader>
           <div className="grid gap-4 py-4">
             <div className="grid gap-2">
               <Label htmlFor="name">Name</Label>
-              <Input id="name" placeholder="e.g. Grocery Store" required />
+              <Input id="name" placeholder="e.g. Swiggy, Rent, Petrol" required />
             </div>
             <div className="grid gap-2">
-              <Label htmlFor="amount">Amount</Label>
-              <Input id="amount" type="number" step="0.01" placeholder="0.00" required />
+              <Label htmlFor="amount">Amount (₹)</Label>
+              <Input id="amount" type="number" step="1" placeholder="0" required />
             </div>
             <div className="grid gap-2">
               <Label htmlFor="category">Category</Label>
@@ -61,7 +61,7 @@ const AddTransactionDialog = () => {
                   <SelectItem value="food">Food & Drink</SelectItem>
                   <SelectItem value="transport">Transport</SelectItem>
                   <SelectItem value="housing">Housing</SelectItem>
-                  <SelectItem value="tech">Technology</SelectItem>
+                  <SelectItem value="bills">Bills & Utilities</SelectItem>
                   <SelectItem value="income">Income</SelectItem>
                 </SelectContent>
               </Select>

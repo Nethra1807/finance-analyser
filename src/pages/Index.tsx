@@ -17,7 +17,7 @@ const Index = () => {
         <header className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <h1 className="text-3xl font-bold tracking-tight text-slate-900">Finance Analyzer</h1>
-            <p className="text-slate-500 mt-1">Welcome back! Here's what's happening with your money.</p>
+            <p className="text-slate-500 mt-1">Namaste! Here's your financial summary in INR.</p>
           </div>
           <div className="flex items-center gap-3">
             <Button variant="outline" size="icon" className="rounded-full bg-white border-none shadow-sm">
@@ -31,29 +31,29 @@ const Index = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <StatCard 
             title="Total Balance" 
-            value="$12,450.80" 
+            value="₹1,42,450" 
             description="from last month"
             icon={<Wallet className="w-4 h-4" />}
             trend={{ value: "12%", isPositive: true }}
           />
           <StatCard 
             title="Monthly Income" 
-            value="$5,200.00" 
+            value="₹85,000" 
             description="this month"
             icon={<TrendingUp className="w-4 h-4" />}
-            trend={{ value: "8%", isPositive: true }}
+            trend={{ value: "5%", isPositive: true }}
           />
           <StatCard 
             title="Monthly Expenses" 
-            value="$2,840.50" 
+            value="₹34,840" 
             description="this month"
             icon={<TrendingDown className="w-4 h-4" />}
-            trend={{ value: "4%", isPositive: false }}
+            trend={{ value: "8%", isPositive: false }}
           />
           <StatCard 
             title="Total Savings" 
-            value="$4,410.30" 
-            description="target: $5,000"
+            value="₹45,000" 
+            description="target: ₹1,00,000"
             icon={<PiggyBank className="w-4 h-4" />}
           />
         </div>
