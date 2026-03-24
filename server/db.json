@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1774326101928,
+      "email": "nets@gmail.com",
+      "password": "$2a$10$XM.qyQcJneKwM1mHWtx8iODILBC6SwqlLu0Mqf76md5A6vVfM6mlC",
+      "name": "nets",
+      "initial_balance": 414
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1774326738525,
+      "user_id": 1774326101928,
+      "amount": -300,
+      "type": "expense",
+      "category": "shopping",
+      "date": "24 Mar, 10:02 am"
+    },
+    {
+      "id": 1774326768015,
+      "user_id": 1774326101928,
+      "amount": 1000,
+      "type": "income",
+      "category": "income",
+      "date": "24 Mar, 10:02 am"
+    }
+  ]
+}
